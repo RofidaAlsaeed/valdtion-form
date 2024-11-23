@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5)), url(BG.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: white;
+    padding: 2px 30px ;
+    
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 168, 255, 0.5), 0px 6px 10px rgba(185, 0, 255, 0.5);
+    width: 400px;
+    height: auto;
+}
+
+.form-container h2 {
+    text-align: center;
+    background: -webkit-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 20px;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1); /* Inner shadow */
+}
+
+.btn-register {
+    background: -webkit-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-register:hover {
+    background: -webkit-linear-gradient(left, rgba(0, 168, 255, 0.8), rgba(185, 0, 255, 0.8));
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
